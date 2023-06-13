@@ -1,0 +1,30 @@
+/* Alunos: Kenji Sousa (00255114) e Willian Fedel (00249931) */
+
+#btContainer {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+#btsProblemas {
+    flex-wrap: wrap;
+}
+
+#btsProblemas>label {
+    white-space: nowrap;
+}
+
+.problema {
+    background-color: #07f3;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.campo {
+    padding: 10px 0;
+}
